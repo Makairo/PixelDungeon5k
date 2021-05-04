@@ -1,0 +1,96 @@
+.navbar{
+    width: auto;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(24, 6, 3);
+}
+.navbar li {
+    float: left;
+}
+.navbar li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px 14px 16px;
+    background-color: rgb(24, 6, 3);
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+}
+.navbar li a:hover {
+    background-color: rgb(141, 72, 44);
+}
+.navbar li a.active-page {
+    background-color: darkred;
+}
+.centerBox {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    background-color: darkgrey;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: solid white;
+}
+
+.newsBox {
+    height: 800px;
+    background-color: darkgrey;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: solid white;
+    overflow: scroll;
+}
+
+.newsBox h3 {
+    text-align: left;  
+}
+.newsBox p {
+    text-align: left;  
+}
+
+.newsBlock {
+    width: 80%;
+    position: left;
+    background-color: rgb(184, 184, 184);
+    padding: 1% 1% 1% 1%;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: rgb(24, 6, 3);
+    text-align: center;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url(Brick.jpg);
+    background-position: center;
+    background-color: lightgray;
+    margin: 0px;
+}
+table {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+table th {
+    border: 2px solid black;
+}
+table tr td{
+    border: 1px solid darkslategray;
+}
+
+
